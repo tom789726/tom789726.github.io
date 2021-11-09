@@ -11,6 +11,8 @@
     <loc>http://example.org/posts/</loc>
     <lastmod>2021-11-07T04:16:36+08:00</lastmod>
   </url><url>
+    <loc>http://example.org/posts/readme/</loc>
+  </url><url>
     <loc>http://example.org/categories/</loc>
   </url><url>
     <loc>http://example.org/tags/</loc>
