@@ -6,13 +6,286 @@
         <description>Recent content in Test on Blank Space</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://tom789726.github.io/categories/test/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 05 Apr 2023 03:30:50 +0800</lastBuildDate><atom:link href="http://tom789726.github.io/categories/test/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>(Testing Page) MdGuide</title>
+        <link>http://tom789726.github.io/blogs/mdguide/</link>
+        <pubDate>Wed, 05 Apr 2023 03:30:50 +0800</pubDate>
+        
+        <guid>http://tom789726.github.io/blogs/mdguide/</guid>
+        <description>&lt;img src="http://tom789726.github.io/blogs/mdguide/sample-image.png" alt="Featured image of post (Testing Page) MdGuide" /&gt;&lt;h1 id=&#34;dizzy-markdown-guide-for-atom&#34;&gt;:dizzy: Markdown guide FOR ATOM&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;測試一下github page與atom使用的markdown表現分別&lt;/li&gt;
+&lt;li&gt;Latex, emoji無法使用(?)&lt;/li&gt;
+&lt;li&gt;toc不能用(?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;atom-guide&#34;&gt;Atom Guide&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;p&lt;/code&gt; 可以call terminal出黎&lt;/li&gt;
+&lt;li&gt;Project Folder請唔好有中文or符號, Markdown Preview會睇唔到圖片&lt;/li&gt;
+&lt;li&gt;若然你只係想睇內容，最好用&lt;code&gt;.html&lt;/code&gt;files會比較好睇 :)&lt;/li&gt;
+&lt;li&gt;Btw, markdown主要都係作為文字記錄平台, 如果要畫圖/非文字媒體最好用其他software(e.g. powerpoint) 畫完再貼上黎會比較方便&lt;/li&gt;
+&lt;li&gt;atom入面打&lt;code&gt;i&lt;/code&gt; + &lt;code&gt;tab&lt;/code&gt; = &lt;em&gt;italic&lt;/em&gt;(自動出個斜線符號包住)，同理&lt;code&gt;b&lt;/code&gt;+&lt;code&gt;tab&lt;/code&gt; = &lt;strong&gt;bold&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;File&lt;/code&gt; $\rightarrow$ &lt;code&gt;Stylesheet&lt;/code&gt; 可以自己加css(改字體etc.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;必裝Packages&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown preview enhanced&lt;/li&gt;
+&lt;li&gt;Markdwon table editor&lt;/li&gt;
+&lt;li&gt;Markdown image assistant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h1&gt;
+&lt;p&gt;[toc]&lt;/p&gt;
+&lt;p&gt;試下用link to section做:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#General&#34; &gt;General&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;###Lists&#34; &gt;Lists&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;general&#34;&gt;General&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Header1
+## Header2
+### Header3
+max = Header6
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;em&gt;Italic1&lt;/em&gt;   &lt;em&gt;Italic2&lt;/em&gt;
+&lt;strong&gt;Bold1&lt;/strong&gt;   &lt;strong&gt;Bold2&lt;/strong&gt;
+&lt;del&gt;StrikThrough&lt;/del&gt;
+==Highlight==&lt;/p&gt;
+&lt;h3 id=&#34;lists&#34;&gt;Lists&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;unordered list
+&lt;ul&gt;
+&lt;li&gt;sublist&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;ordered list
+&lt;ol&gt;
+&lt;li&gt;ordered list&lt;/li&gt;
+&lt;li&gt;xx&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Task list
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; To-do list&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;table&#34;&gt;Table&lt;/h3&gt;
+&lt;p&gt;要裝Markdown table editor (atom)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Tab&lt;/code&gt;: Next cell&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Enter&lt;/code&gt;: Next line&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Esc&lt;/code&gt;: Leave table edit mode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Column1&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Column2&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Column3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Left align&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Center align&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;Right align&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;L&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;C&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;R&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Merge&lt;/th&gt;
+&lt;th&gt;cell&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;gt;&lt;/td&gt;
+&lt;td&gt;col_merge&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Enable&lt;/td&gt;
+&lt;td&gt;row_merge&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Extended&lt;/td&gt;
+&lt;td&gt;^&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;table&lt;/td&gt;
+&lt;td&gt;Function&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;link-hypertext&#34;&gt;Link (HyperText)&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://github.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;image&#34;&gt;Image&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;http://tom789726.github.io/sample-image.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;sample-image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Note: 圖片要放&lt;code&gt;static&lt;/code&gt;底下&lt;/li&gt;
+&lt;li&gt;或者放同一個&lt;code&gt;page bundle&lt;/code&gt;入面 (即係有&lt;code&gt;index.md&lt;/code&gt;的同一個folder底下)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;text-formatting&#34;&gt;Text Formatting&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Superscript:&lt;/code&gt; 1^st^&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Subscript:&lt;/code&gt; CO~2~&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Footnotes:&lt;/code&gt; Article &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;Abbreviation:&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;*[md]: markdown&lt;/li&gt;
+&lt;li&gt;*[cool]: cool and beautiful&lt;/li&gt;
+&lt;li&gt;md is cool&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;emoji:&lt;/code&gt; :smiley: :fa-flag:
+Cheatsheet:
+&lt;code&gt;@import&lt;/code&gt; &amp;ldquo;assets\emoji_list.md&amp;rdquo;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;blockquote&#34;&gt;Blockquote&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Evil knows of the good,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;But good does not know of the evil&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;code-block&#34;&gt;Code Block&lt;/h3&gt;
+&lt;div class=&#34;highlight line-numbers&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;main()
+{
+  int i&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;maths&#34;&gt;Maths&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://katex.org/docs/supported.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CheatSheet&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;basics&#34;&gt;Basics&lt;/h3&gt;
+&lt;p&gt;$ x^5+y^{10} = {dy \over dx}2x$
+$ \sqrt[4]{x}  \not= \int \iint  $&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-Math&#34; data-lang=&#34;Math&#34;&gt; \tag{equation 1}
+ f(x,y)=sin(2\pi\theta)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;$$
+\tag{2.10}
+\sum_{n=1}^{100} e^n
+$$&lt;/p&gt;
+&lt;p&gt;$
+\tilde{a}, \vec{F}, \bar{y}, \big(,\Big(, \bigg( ABCD \bigg)
+$&lt;/p&gt;
+&lt;h3 id=&#34;matrix&#34;&gt;Matrix&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-Math&#34; data-lang=&#34;Math&#34;&gt;\begin{matrix}
+  a&amp;amp;b\\
+  c&amp;amp;d
+\end{matrix}
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-Math&#34; data-lang=&#34;Math&#34;&gt;\begin{bmatrix}
+  a&amp;amp;b\\
+  c&amp;amp;d
+\end{bmatrix}
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-Math&#34; data-lang=&#34;Math&#34;&gt;\begin{vmatrix}
+  a&amp;amp;b\\
+  c&amp;amp;d
+\end{vmatrix}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;alignments&#34;&gt;Alignments&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-Math&#34; data-lang=&#34;Math&#34;&gt;x = \begin{cases}
+   a &amp;amp;\text{if } b \\
+   c &amp;amp;\text{if } d
+\end{cases}
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-Math&#34; data-lang=&#34;Math&#34;&gt;
+\begin{alignedat}{2}
+   10&amp;amp;x+ &amp;amp;3&amp;amp;y = 2 \\
+   3&amp;amp;x+&amp;amp;13&amp;amp;y = 4
+\end{alignedat}
+
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;greek-letters&#34;&gt;Greek Letters&lt;/h3&gt;
+&lt;p&gt;$ \Delta \delta \phi \Phi$&lt;/p&gt;
+&lt;h3 id=&#34;logics-set-theory&#34;&gt;Logics, Set Theory&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;$\therefore$&lt;/th&gt;
+&lt;th&gt;$\because$&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;$\sub$&lt;/td&gt;
+&lt;td&gt;$\empty$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$\in$&lt;/td&gt;
+&lt;td&gt;$\varnothing$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;marcos&#34;&gt;Marcos&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-Math&#34; data-lang=&#34;Math&#34;&gt; \def\func{x^y}
+ \func + \func \over \func
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
+&lt;h3 id=&#34;flow-charts&#34;&gt;flow charts&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-flow&#34; data-lang=&#34;flow&#34;&gt;st=&amp;gt;start: hello
+e=&amp;gt;end: byebye
+op=&amp;gt;operation: add a into b
+cond=&amp;gt;condition: are you sure?
+
+st-&amp;gt;op-&amp;gt;cond
+cond(yes)-&amp;gt;e
+cond(no)-&amp;gt;op
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;import&#34;&gt;Import&lt;/h2&gt;
+&lt;h3 id=&#34;configure-image&#34;&gt;Configure Image&lt;/h3&gt;
+&lt;p&gt;@import &amp;ldquo;image.png&amp;rdquo; {width=&amp;ldquo;400px&amp;rdquo; height=&amp;ldquo;300px&amp;rdquo; title=&amp;ldquo;Hello&amp;rdquo; align=&amp;ldquo;Right&amp;rdquo;}&lt;/p&gt;
+&lt;p&gt;OR&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;supported-file-types&#34;&gt;Supported file types&lt;/h3&gt;
+&lt;p&gt;Common:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;.jpeg(.jpg)&lt;/code&gt;, &lt;code&gt;.gif&lt;/code&gt;, &lt;code&gt;.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.csv&lt;/code&gt;: converted to markdown table.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.html&lt;/code&gt;: embeded directly&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.pdf&lt;/code&gt;: you need to download &lt;strong&gt;pdf2svg&lt;/strong&gt; first&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;presentation&#34;&gt;Presentation&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://shd101wyy.github.io/markdown-preview-enhanced/#/presentation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Guide&lt;/a&gt;&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Wikipedia (會自動置底)&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+        </item>
+        <item>
         <title>Chinese Test</title>
-        <link>http://tom789726.github.io/post/test-chinese/</link>
+        <link>http://tom789726.github.io/blogs/test-chinese/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://tom789726.github.io/post/test-chinese/</guid>
-        <description>&lt;img src="http://tom789726.github.io/post/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Chinese Test" /&gt;&lt;h2 id=&#34;正文测试&#34;&gt;正文测试&lt;/h2&gt;
+        <guid>http://tom789726.github.io/blogs/test-chinese/</guid>
+        <description>&lt;img src="http://tom789726.github.io/blogs/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Chinese Test" /&gt;&lt;h2 id=&#34;正文测试&#34;&gt;正文测试&lt;/h2&gt;
 &lt;p&gt;而这些并不是完全重要，更加重要的问题是， 带着这些问题，我们来审视一下学生会退会。 既然如何， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 我们不得不面对一个非常尴尬的事实，那就是， 可是，即使是这样，学生会退会的出现仍然代表了一定的意义。 学生会退会，发生了会如何，不发生又会如何。 经过上述讨论， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 学生会退会，到底应该如何实现。 这样看来， 在这种困难的抉择下，本人思来想去，寝食难安。 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 就我个人来说，学生会退会对我的意义，不能不说非常重大。 莎士比亚曾经提到过，人的一生是短的，但如果卑劣地过这一生，就太长了。这似乎解答了我的疑惑。 莫扎特说过一句富有哲理的话，谁和我一样用功，谁就会和我一样成功。这启发了我， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 学生会退会，到底应该如何实现。 一般来说， 从这个角度来看， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 在这种困难的抉择下，本人思来想去，寝食难安。 了解清楚学生会退会到底是一种怎么样的存在，是解决一切问题的关键。 一般来说， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 问题的关键究竟为何？ 而这些并不是完全重要，更加重要的问题是。&lt;/p&gt;
 &lt;p&gt;奥斯特洛夫斯基曾经说过，共同的事业，共同的斗争，可以使人们产生忍受一切的力量。　带着这句话，我们还要更加慎重的审视这个问题： 一般来讲，我们都必须务必慎重的考虑考虑。 既然如此， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 带着这些问题，我们来审视一下学生会退会。 我认为， 我认为， 在这种困难的抉择下，本人思来想去，寝食难安。 问题的关键究竟为何？ 每个人都不得不面对这些问题。 在面对这种问题时， 要想清楚，学生会退会，到底是一种怎么样的存在。 我认为， 既然如此， 每个人都不得不面对这些问题。 在面对这种问题时， 那么， 我认为， 学生会退会因何而发生。&lt;/p&gt;
 &lt;h2 id=&#34;引用&#34;&gt;引用&lt;/h2&gt;
@@ -25,10 +298,10 @@
     &gt;最暖的憂傷 - 田馥甄&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;图片&#34;&gt;图片&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;http://tom789726.github.io/post/test-chinese/florian-klauer-nptLmg6jqDo-unsplash.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://tom789726.github.io/blogs/test-chinese/florian-klauer-nptLmg6jqDo-unsplash.jpg&#34;
 	width=&#34;667&#34;
 	height=&#34;1000&#34;
-	srcset=&#34;http://tom789726.github.io/post/test-chinese/florian-klauer-nptLmg6jqDo-unsplash_hu595aaf3b3dbbb41af5aed8d3958cc9f9_13854_480x0_resize_q75_box.jpg 480w, http://tom789726.github.io/post/test-chinese/florian-klauer-nptLmg6jqDo-unsplash_hu595aaf3b3dbbb41af5aed8d3958cc9f9_13854_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;http://tom789726.github.io/blogs/test-chinese/florian-klauer-nptLmg6jqDo-unsplash_hu595aaf3b3dbbb41af5aed8d3958cc9f9_13854_480x0_resize_q75_box.jpg 480w, http://tom789726.github.io/blogs/test-chinese/florian-klauer-nptLmg6jqDo-unsplash_hu595aaf3b3dbbb41af5aed8d3958cc9f9_13854_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Photo by Florian Klauer on Unsplash&#34;
@@ -38,10 +311,10 @@
 		data-flex-grow=&#34;66&#34;
 		data-flex-basis=&#34;160px&#34;
 	
-&gt;  &lt;img src=&#34;http://tom789726.github.io/post/test-chinese/luca-bravo-alS7ewQ41M8-unsplash.jpg&#34;
+&gt;  &lt;img src=&#34;http://tom789726.github.io/blogs/test-chinese/luca-bravo-alS7ewQ41M8-unsplash.jpg&#34;
 	width=&#34;1000&#34;
 	height=&#34;667&#34;
-	srcset=&#34;http://tom789726.github.io/post/test-chinese/luca-bravo-alS7ewQ41M8-unsplash_hu0a3f1163de68d0b9471979ebf0ecf11e_32400_480x0_resize_q75_box.jpg 480w, http://tom789726.github.io/post/test-chinese/luca-bravo-alS7ewQ41M8-unsplash_hu0a3f1163de68d0b9471979ebf0ecf11e_32400_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;http://tom789726.github.io/blogs/test-chinese/luca-bravo-alS7ewQ41M8-unsplash_hu0a3f1163de68d0b9471979ebf0ecf11e_32400_480x0_resize_q75_box.jpg 480w, http://tom789726.github.io/blogs/test-chinese/luca-bravo-alS7ewQ41M8-unsplash_hu0a3f1163de68d0b9471979ebf0ecf11e_32400_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Photo by Luca Bravo on Unsplash&#34;
@@ -52,10 +325,10 @@
 		data-flex-basis=&#34;359px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://tom789726.github.io/post/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://tom789726.github.io/blogs/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg&#34;
 	width=&#34;1000&#34;
 	height=&#34;750&#34;
-	srcset=&#34;http://tom789726.github.io/post/test-chinese/helena-hertz-wWZzXlDpMog-unsplash_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_480x0_resize_q75_box.jpg 480w, http://tom789726.github.io/post/test-chinese/helena-hertz-wWZzXlDpMog-unsplash_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;http://tom789726.github.io/blogs/test-chinese/helena-hertz-wWZzXlDpMog-unsplash_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_480x0_resize_q75_box.jpg 480w, http://tom789726.github.io/blogs/test-chinese/helena-hertz-wWZzXlDpMog-unsplash_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Photo by Helena Hertz on Unsplash&#34;
@@ -65,10 +338,10 @@
 		data-flex-grow=&#34;133&#34;
 		data-flex-basis=&#34;320px&#34;
 	
-&gt;  &lt;img src=&#34;http://tom789726.github.io/post/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&#34;
+&gt;  &lt;img src=&#34;http://tom789726.github.io/blogs/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&#34;
 	width=&#34;667&#34;
 	height=&#34;1000&#34;
-	srcset=&#34;http://tom789726.github.io/post/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash_hub241c2a9c7a2caf7e16a2a5bbc7141ff_18711_480x0_resize_q75_box.jpg 480w, http://tom789726.github.io/post/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash_hub241c2a9c7a2caf7e16a2a5bbc7141ff_18711_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;http://tom789726.github.io/blogs/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash_hub241c2a9c7a2caf7e16a2a5bbc7141ff_18711_480x0_resize_q75_box.jpg 480w, http://tom789726.github.io/blogs/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash_hub241c2a9c7a2caf7e16a2a5bbc7141ff_18711_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Photo by Hudai Gayiran on Unsplash&#34;
@@ -88,11 +361,11 @@
         </item>
         <item>
         <title>Emoji Support</title>
-        <link>http://tom789726.github.io/post/emoji-support/</link>
+        <link>http://tom789726.github.io/blogs/emoji-support/</link>
         <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://tom789726.github.io/post/emoji-support/</guid>
-        <description>&lt;img src="http://tom789726.github.io/post/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" /&gt;&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
+        <guid>http://tom789726.github.io/blogs/emoji-support/</guid>
+        <description>&lt;img src="http://tom789726.github.io/blogs/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" /&gt;&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
 &lt;p&gt;The &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/functions/emojify/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; function can be called directly in templates or &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;

@@ -2,25 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://tom789726.github.io/post/mdguide/</loc>
-    <lastmod>2023-04-05T03:30:50+08:00</lastmod>
-  </url><url>
     <loc>http://tom789726.github.io/</loc>
     <lastmod>2023-04-05T03:30:50+08:00</lastmod>
   </url><url>
-    <loc>http://tom789726.github.io/post/</loc>
+    <loc>http://tom789726.github.io/blogs/mdguide/</loc>
     <lastmod>2023-04-05T03:30:50+08:00</lastmod>
   </url><url>
-    <loc>http://tom789726.github.io/post/test-post/</loc>
-    <lastmod>2023-04-05T00:38:21+08:00</lastmod>
+    <loc>http://tom789726.github.io/blogs/</loc>
+    <lastmod>2023-04-05T03:30:50+08:00</lastmod>
   </url><url>
     <loc>http://tom789726.github.io/categories/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-05T03:30:50+08:00</lastmod>
   </url><url>
-    <loc>http://tom789726.github.io/post/test-chinese/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>http://tom789726.github.io/tags/notes/</loc>
+    <lastmod>2023-04-05T03:30:50+08:00</lastmod>
+  </url><url>
+    <loc>http://tom789726.github.io/tags/</loc>
+    <lastmod>2023-04-05T03:30:50+08:00</lastmod>
   </url><url>
     <loc>http://tom789726.github.io/categories/test/</loc>
+    <lastmod>2023-04-05T03:30:50+08:00</lastmod>
+  </url><url>
+    <loc>http://tom789726.github.io/blogs/test-chinese/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tom789726.github.io/categories/%E6%B5%8B%E8%AF%95/</loc>
@@ -35,13 +38,10 @@
     <loc>http://tom789726.github.io/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://tom789726.github.io/post/markdown-syntax/</loc>
+    <loc>http://tom789726.github.io/blogs/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tom789726.github.io/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://tom789726.github.io/tags/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tom789726.github.io/tags/themes/</loc>
@@ -53,7 +53,7 @@
     <loc>http://tom789726.github.io/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://tom789726.github.io/post/rich-content/</loc>
+    <loc>http://tom789726.github.io/blogs/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tom789726.github.io/tags/shortcodes/</loc>
@@ -68,7 +68,7 @@
     <loc>http://tom789726.github.io/tags/%D9%85%D8%A7%D8%B1%D9%83%D8%AF%D8%A7%D9%88%D9%86/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://tom789726.github.io/post/placeholder-text/</loc>
+    <loc>http://tom789726.github.io/blogs/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tom789726.github.io/tags/%D9%86%D8%B5/</loc>
@@ -77,13 +77,17 @@
     <loc>http://tom789726.github.io/tags/%D9%88%D8%B3%D9%85-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://tom789726.github.io/post/math-typesetting/</loc>
+    <loc>http://tom789726.github.io/blogs/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://tom789726.github.io/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://tom789726.github.io/post/emoji-support/</loc>
+    <loc>http://tom789726.github.io/blogs/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://tom789726.github.io/menu/</loc>
+  </url><url>
+    <loc>http://tom789726.github.io/menu/search/</loc>
   </url>
 </urlset>

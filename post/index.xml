@@ -12,7 +12,7 @@
         <pubDate>Wed, 05 Apr 2023 03:30:50 +0800</pubDate>
         
         <guid>http://tom789726.github.io/post/mdguide/</guid>
-        <description>&lt;h1 id=&#34;dizzy-markdown-guide-for-atom&#34;&gt;:dizzy: Markdown guide FOR ATOM&lt;/h1&gt;
+        <description>&lt;img src="http://tom789726.github.io/sample-image.png" alt="Featured image of post (Testing Page) MdGuide" /&gt;&lt;h1 id=&#34;dizzy-markdown-guide-for-atom&#34;&gt;:dizzy: Markdown guide FOR ATOM&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;測試一下github page與atom使用的markdown表現分別&lt;/li&gt;
 &lt;li&gt;Latex, emoji無法使用(?)&lt;/li&gt;
@@ -276,16 +276,6 @@ cond(no)-&amp;gt;op
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
-</description>
-        </item>
-        <item>
-        <title>Test Post</title>
-        <link>http://tom789726.github.io/post/test-post/</link>
-        <pubDate>Wed, 05 Apr 2023 00:38:21 +0800</pubDate>
-        
-        <guid>http://tom789726.github.io/post/test-post/</guid>
-        <description>&lt;p&gt;Testing
-Hi Hi&lt;/p&gt;
 </description>
         </item>
         <item>
