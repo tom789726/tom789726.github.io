@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on Blank Space (en)</title>
+        <link>http://tom789726.github.io/page/</link>
+        <description>Recent content in Pages on Blank Space (en)</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://tom789726.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About</title>
+        <link>http://tom789726.github.io/about/</link>
+        <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+        
+        <guid>http://tom789726.github.io/about/</guid>
+        <description>&lt;img src="http://tom789726.github.io/about/about.jpg" alt="Featured image of post About" /&gt;&lt;p&gt;Thank you for visiting this place!&lt;/p&gt;
+&lt;p&gt;Feel free to scroll through the contents and leave a comment if you wish!&lt;/p&gt;
+&lt;p&gt;You can contact me through:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/tom789726&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>http://tom789726.github.io/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://tom789726.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>http://tom789726.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://tom789726.github.io/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

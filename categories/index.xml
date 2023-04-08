@@ -1,58 +1,74 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Categories on Blank Space</title>
+        <title>Categories on Blank Space (en)</title>
         <link>http://tom789726.github.io/categories/</link>
-        <description>Recent content in Categories on Blank Space</description>
+        <description>Recent content in Categories on Blank Space (en)</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 05 Apr 2023 03:30:50 +0800</lastBuildDate><atom:link href="http://tom789726.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 08 Apr 2023 19:47:08 +0800</lastBuildDate><atom:link href="http://tom789726.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>生活反思</title>
+        <link>http://tom789726.github.io/categories/life/</link>
+        <pubDate>Sat, 08 Apr 2023 19:47:08 +0800</pubDate>
+        
+        <guid>http://tom789726.github.io/categories/life/</guid>
+        <description>&lt;img src="http://tom789726.github.io/categories/life/life.jpg" alt="Featured image of post 生活反思" /&gt;</description>
+        </item>
+        <item>
+        <title>Memes</title>
+        <link>http://tom789726.github.io/categories/memes/</link>
+        <pubDate>Sat, 08 Apr 2023 19:30:01 +0800</pubDate>
+        
+        <guid>http://tom789726.github.io/categories/memes/</guid>
+        <description>&lt;img src="http://tom789726.github.io/categories/memes/memes.jpg" alt="Featured image of post Memes" /&gt;</description>
+        </item>
+        <item>
         <title>Test</title>
         <link>http://tom789726.github.io/categories/test/</link>
         <pubDate>Wed, 05 Apr 2023 03:30:50 +0800</pubDate>
         
         <guid>http://tom789726.github.io/categories/test/</guid>
-        <description></description>
+        <description>&lt;img src="http://tom789726.github.io/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
         </item>
         <item>
-        <title>测试</title>
-        <link>http://tom789726.github.io/categories/%E6%B5%8B%E8%AF%95/</link>
-        <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-        
-        <guid>http://tom789726.github.io/categories/%E6%B5%8B%E8%AF%95/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>syntax</title>
-        <link>http://tom789726.github.io/categories/syntax/</link>
+        <title>Guide</title>
+        <link>http://tom789726.github.io/categories/guide/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://tom789726.github.io/categories/syntax/</guid>
-        <description></description>
+        <guid>http://tom789726.github.io/categories/guide/</guid>
+        <description>&lt;img src="http://tom789726.github.io/categories/guide/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Guide" /&gt;</description>
         </item>
         <item>
-        <title>themes</title>
-        <link>http://tom789726.github.io/categories/themes/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        <title>娛樂</title>
+        <link>http://tom789726.github.io/categories/games/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://tom789726.github.io/categories/themes/</guid>
-        <description></description>
+        <guid>http://tom789726.github.io/categories/games/</guid>
+        <description>&lt;img src="http://tom789726.github.io/categories/games/game.jpg" alt="Featured image of post 娛樂" /&gt;</description>
         </item>
         <item>
-        <title>تجربة</title>
-        <link>http://tom789726.github.io/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+        <title>成長</title>
+        <link>http://tom789726.github.io/categories/study/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://tom789726.github.io/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</guid>
-        <description></description>
+        <guid>http://tom789726.github.io/categories/study/</guid>
+        <description>&lt;img src="http://tom789726.github.io/categories/study/study.jpg" alt="Featured image of post 成長" /&gt;</description>
         </item>
         <item>
-        <title>تجربة مع فراغات</title>
-        <link>http://tom789726.github.io/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+        <title>閱後感</title>
+        <link>http://tom789726.github.io/categories/books/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://tom789726.github.io/categories/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D9%85%D8%B9-%D9%81%D8%B1%D8%A7%D8%BA%D8%A7%D8%AA/</guid>
-        <description></description>
+        <guid>http://tom789726.github.io/categories/books/</guid>
+        <description>&lt;img src="http://tom789726.github.io/categories/books/books.jpg" alt="Featured image of post 閱後感" /&gt;</description>
+        </item>
+        <item>
+        <title>電影</title>
+        <link>http://tom789726.github.io/categories/movies/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://tom789726.github.io/categories/movies/</guid>
+        <description>&lt;img src="http://tom789726.github.io/categories/movies/movie.jpg" alt="Featured image of post 電影" /&gt;</description>
         </item>
         
     </channel>
