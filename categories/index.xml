@@ -6,15 +6,7 @@
         <description>Recent content in Categories on Blank Space (en)</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 08 Apr 2023 19:47:08 +0800</lastBuildDate><atom:link href="http://tom789726.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>生活反思</title>
-        <link>http://tom789726.github.io/categories/life/</link>
-        <pubDate>Sat, 08 Apr 2023 19:47:08 +0800</pubDate>
-        
-        <guid>http://tom789726.github.io/categories/life/</guid>
-        <description>&lt;img src="http://tom789726.github.io/categories/life/life.jpg" alt="Featured image of post 生活反思" /&gt;</description>
-        </item>
-        <item>
+        <lastBuildDate>Sat, 08 Apr 2023 19:30:01 +0800</lastBuildDate><atom:link href="http://tom789726.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Memes</title>
         <link>http://tom789726.github.io/categories/memes/</link>
         <pubDate>Sat, 08 Apr 2023 19:30:01 +0800</pubDate>
@@ -53,6 +45,14 @@
         
         <guid>http://tom789726.github.io/categories/study/</guid>
         <description>&lt;img src="http://tom789726.github.io/categories/study/study.jpg" alt="Featured image of post 成長" /&gt;</description>
+        </item>
+        <item>
+        <title>生活反思</title>
+        <link>http://tom789726.github.io/categories/life/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://tom789726.github.io/categories/life/</guid>
+        <description>&lt;img src="http://tom789726.github.io/categories/life/life.jpg" alt="Featured image of post 生活反思" /&gt;</description>
         </item>
         <item>
         <title>閱後感</title>
