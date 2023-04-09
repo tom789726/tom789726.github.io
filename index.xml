@@ -487,7 +487,7 @@ cond(no)-&amp;gt;op
 &lt;h3 id=&#34;configure-image&#34;&gt;Configure Image&lt;/h3&gt;
 &lt;p&gt;@import &amp;ldquo;image.png&amp;rdquo; {width=&amp;ldquo;400px&amp;rdquo; height=&amp;ldquo;300px&amp;rdquo; title=&amp;ldquo;Hello&amp;rdquo; align=&amp;ldquo;Right&amp;rdquo;}&lt;/p&gt;
 &lt;p&gt;OR&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;h3 id=&#34;supported-file-types&#34;&gt;Supported file types&lt;/h3&gt;
 &lt;p&gt;Common:&lt;/p&gt;
 &lt;ul&gt;
