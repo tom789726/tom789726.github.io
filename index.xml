@@ -933,7 +933,16 @@ $$&lt;/p&gt;</description>
         <description>&lt;h1 id=&#34;embedded-pdf-viewer&#34;&gt;Embedded PDF viewer&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;
+&lt;p&gt;Using simple iframe&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Debug: cannot display properly on ios (safari)&lt;/li&gt;
+&lt;li&gt;ios system render iframe pdf viewer as an image (of first page)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;[1986] Distinguishability of Conductivities by ECCT
+
+
 
 
 
@@ -951,10 +960,20 @@ $$&lt;/p&gt;</description>
 	&lt;/iframe&gt;
 &lt;/div&gt;
 
+
+
+&lt;script&gt;
+document.getElementById(&#34;file1&#34;).contentWindow.onload = function() {
+    this.document.getElementsByTagName(&#34;img&#34;)[0].style.width=&#34;100%&#34;;
+};
+&lt;/script&gt;
+
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;[1987] Current Topics in impedance imaging
+
+
 
 
 
@@ -972,10 +991,20 @@ $$&lt;/p&gt;</description>
 	&lt;/iframe&gt;
 &lt;/div&gt;
 
+
+
+&lt;script&gt;
+document.getElementById(&#34;file1&#34;).contentWindow.onload = function() {
+    this.document.getElementsByTagName(&#34;img&#34;)[0].style.width=&#34;100%&#34;;
+};
+&lt;/script&gt;
+
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;[1988] Theory and performance of an adaptive current tomography system
+
+
 
 
 
@@ -993,10 +1022,20 @@ $$&lt;/p&gt;</description>
 	&lt;/iframe&gt;
 &lt;/div&gt;
 
+
+
+&lt;script&gt;
+document.getElementById(&#34;file1&#34;).contentWindow.onload = function() {
+    this.document.getElementsByTagName(&#34;img&#34;)[0].style.width=&#34;100%&#34;;
+};
+&lt;/script&gt;
+
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;[1992] Distinguishability in impedance imaging
+
+
 
 
 
@@ -1014,10 +1053,20 @@ $$&lt;/p&gt;</description>
 	&lt;/iframe&gt;
 &lt;/div&gt;
 
+
+
+&lt;script&gt;
+document.getElementById(&#34;file1&#34;).contentWindow.onload = function() {
+    this.document.getElementsByTagName(&#34;img&#34;)[0].style.width=&#34;100%&#34;;
+};
+&lt;/script&gt;
+
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;[1992] improved method to determine optimal current
+
+
 
 
 
@@ -1035,10 +1084,20 @@ $$&lt;/p&gt;</description>
 	&lt;/iframe&gt;
 &lt;/div&gt;
 
+
+
+&lt;script&gt;
+document.getElementById(&#34;file1&#34;).contentWindow.onload = function() {
+    this.document.getElementsByTagName(&#34;img&#34;)[0].style.width=&#34;100%&#34;;
+};
+&lt;/script&gt;
+
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;[1993] Comments on distinguishability in electrical impedance imaging
+
+
 
 
 
@@ -1055,6 +1114,14 @@ $$&lt;/p&gt;</description>
 	Your browser does not support iframe
 	&lt;/iframe&gt;
 &lt;/div&gt;
+
+
+
+&lt;script&gt;
+document.getElementById(&#34;file1&#34;).contentWindow.onload = function() {
+    this.document.getElementsByTagName(&#34;img&#34;)[0].style.width=&#34;100%&#34;;
+};
+&lt;/script&gt;
 
 &lt;/p&gt;
 &lt;/li&gt;
