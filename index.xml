@@ -932,201 +932,52 @@ $$&lt;/p&gt;</description>
         <guid>http://tom789726.github.io/pdf/</guid>
         <description>&lt;h1 id=&#34;embedded-pdf-viewer&#34;&gt;Embedded PDF viewer&lt;/h1&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Using simple iframe&lt;/p&gt;
+&lt;li&gt;Using simple iframe
 &lt;ul&gt;
 &lt;li&gt;Debug: cannot display properly on ios (safari)&lt;/li&gt;
 &lt;li&gt;ios system render iframe pdf viewer as an image (of first page)&lt;/li&gt;
+&lt;li&gt;Solution: &lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/questions/15480804/problems-displaying-pdf-in-iframe-on-mobile-safari&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google drive viewer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Other possible ways: Use pdf.js&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[1986] Distinguishability of Conductivities by ECCT
-
-
-
-
-
-&lt;style&gt;
-	#file1 {
-		height: 100vw;
-		width: 75vw;	
-	}
-&lt;/style&gt;
-
-&lt;div class =&#34;container&#34;&gt;
-	&lt;iframe id=&#34;file1&#34; src =&#34;[1986]%20Distinguishability%20of%20Conductivities%20by%20ECCT.pdf&#34; frameborder=&#34;0&#34;&gt;
-	(Display when fail)
-	Your browser does not support iframe
-	&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-
-&lt;script&gt;
-document.getElementById(&#34;file1&#34;).contentWindow.onload = function() {
-    this.document.getElementsByTagName(&#34;img&#34;)[0].style.width=&#34;100%&#34;;
-};
-&lt;/script&gt;
-
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[1987] Current Topics in impedance imaging
-
-
-
-
-
-&lt;style&gt;
-	#file1 {
-		height: 100vw;
-		width: 75vw;	
-	}
-&lt;/style&gt;
-
-&lt;div class =&#34;container&#34;&gt;
-	&lt;iframe id=&#34;file1&#34; src =&#34;[1987]%20Current%20Topics%20in%20impedance%20imaging.pdf&#34; frameborder=&#34;0&#34;&gt;
-	(Display when fail)
-	Your browser does not support iframe
-	&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-
-&lt;script&gt;
-document.getElementById(&#34;file1&#34;).contentWindow.onload = function() {
-    this.document.getElementsByTagName(&#34;img&#34;)[0].style.width=&#34;100%&#34;;
-};
-&lt;/script&gt;
-
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[1988] Theory and performance of an adaptive current tomography system
-
-
-
-
-
-&lt;style&gt;
-	#file1 {
-		height: 100vw;
-		width: 75vw;	
-	}
-&lt;/style&gt;
-
-&lt;div class =&#34;container&#34;&gt;
-	&lt;iframe id=&#34;file1&#34; src =&#34;[1988]%20Theory%20and%20performance%20of%20an%20adaptive%20current%20tomography%20system.pdf&#34; frameborder=&#34;0&#34;&gt;
-	(Display when fail)
-	Your browser does not support iframe
-	&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-
-&lt;script&gt;
-document.getElementById(&#34;file1&#34;).contentWindow.onload = function() {
-    this.document.getElementsByTagName(&#34;img&#34;)[0].style.width=&#34;100%&#34;;
-};
-&lt;/script&gt;
-
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[1992] Distinguishability in impedance imaging
-
-
-
-
-
-&lt;style&gt;
-	#file1 {
-		height: 100vw;
-		width: 75vw;	
-	}
-&lt;/style&gt;
-
-&lt;div class =&#34;container&#34;&gt;
-	&lt;iframe id=&#34;file1&#34; src =&#34;[1992]%20Distinguishability%20in%20impedance%20imaging.pdf&#34; frameborder=&#34;0&#34;&gt;
-	(Display when fail)
-	Your browser does not support iframe
-	&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-
-&lt;script&gt;
-document.getElementById(&#34;file1&#34;).contentWindow.onload = function() {
-    this.document.getElementsByTagName(&#34;img&#34;)[0].style.width=&#34;100%&#34;;
-};
-&lt;/script&gt;
-
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[1992] improved method to determine optimal current
-
-
-
-
-
-&lt;style&gt;
-	#file1 {
-		height: 100vw;
-		width: 75vw;	
-	}
-&lt;/style&gt;
-
-&lt;div class =&#34;container&#34;&gt;
-	&lt;iframe id=&#34;file1&#34; src =&#34;[1992]%20improved%20method%20to%20determine%20optimal%20current.pdf&#34; frameborder=&#34;0&#34;&gt;
-	(Display when fail)
-	Your browser does not support iframe
-	&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-
-&lt;script&gt;
-document.getElementById(&#34;file1&#34;).contentWindow.onload = function() {
-    this.document.getElementsByTagName(&#34;img&#34;)[0].style.width=&#34;100%&#34;;
-};
-&lt;/script&gt;
-
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;[1993] Comments on distinguishability in electrical impedance imaging
-
-
-
-
-
-&lt;style&gt;
-	#file1 {
-		height: 100vw;
-		width: 75vw;	
-	}
-&lt;/style&gt;
-
-&lt;div class =&#34;container&#34;&gt;
-	&lt;iframe id=&#34;file1&#34; src =&#34;[1993]%20Comments%20on%20distinguishability%20in%20electrical%20impedance%20imaging.pdf&#34; frameborder=&#34;0&#34;&gt;
-	(Display when fail)
-	Your browser does not support iframe
-	&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-
-&lt;script&gt;
-document.getElementById(&#34;file1&#34;).contentWindow.onload = function() {
-    this.document.getElementsByTagName(&#34;img&#34;)[0].style.width=&#34;100%&#34;;
-};
-&lt;/script&gt;
-
-&lt;/p&gt;
+&lt;li&gt;Improvements
+&lt;ul&gt;
+&lt;li&gt;Add button to show pdf in gallery view&lt;/li&gt;
+&lt;li&gt;Sense mobile / desktop view (e.g. iframe/google drive viewer)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;HI&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[1986] Distinguishability of Conductivities by ECCT
+
+
+
+&lt;style&gt;
+	#file1 {
+		height: 100vw;
+		width: 75vw;	
+	}
+&lt;/style&gt;
+
+
+
+
+
+
+&lt;div class =&#34;container&#34;&gt;
+	&lt;iframe id=&#34;file1&#34; src =&#34;https://drive.google.com/viewerng/viewer?embedded=true&amp;url=https://tom789726.github.io/pdf/%5b1986%5d%20Distinguishability%20of%20Conductivities%20by%20ECCT.pdf&#34; frameborder=&#34;0&#34;&gt;
+	(Display when fail)
+	Your browser does not support google drive viewer
+	&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 </description>
         </item>
         <item>
